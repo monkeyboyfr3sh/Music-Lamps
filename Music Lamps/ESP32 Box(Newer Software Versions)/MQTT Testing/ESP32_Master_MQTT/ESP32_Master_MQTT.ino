@@ -116,7 +116,7 @@ void MQTT_connect();
 
 void setup() {
   Serial.begin(115200);
-  //BTserial.begin(9600);
+  BTserial.begin(9600);
 
   Serial.print("Sketch:   ");   Serial.println(__FILE__);
   Serial.print("Uploaded: ");   Serial.println(__DATE__);
